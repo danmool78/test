@@ -1,0 +1,6 @@
+PyInstaller build could not be produced in this environment because outbound network access is blocked.
+Install dependencies (pygame==2.5.2, pyinstaller==6.11.1) in an environment with internet access, then run:
+
+    ./build_executable.sh
+
+This will generate a standalone tetris executable in the dist/ directory (tetris.exe on Windows).
